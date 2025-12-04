@@ -9,5 +9,5 @@ def main():
     return render_template("index.html")
 
 if __name__ == "__main__":
-    # On utilise le port 8080
-    sample.run(host="0.0.0.0", port=8080)
+    # On utilise le port 5050 le retour
+    sample.run(host="0.0.0.0", port=5050)
